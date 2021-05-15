@@ -10,9 +10,15 @@ import { AppComponent } from './app.component';
 import { MessageSenderComponent } from './helper-components/message-sender/message-sender.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ChatHeadComponent } from './helper-components/chat-head/chat-head.component';
+import { MessageComponent } from './helper-components/message/message.component';
 
 @NgModule({
-  declarations: [AppComponent, MessageSenderComponent, ChatHeadComponent],
+  declarations: [
+    AppComponent,
+    MessageSenderComponent,
+    ChatHeadComponent,
+    MessageComponent,
+  ],
   imports: [
     BrowserModule,
     AppRoutingModule,

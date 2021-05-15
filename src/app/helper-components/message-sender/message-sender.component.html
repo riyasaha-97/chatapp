@@ -1,9 +1,14 @@
 <div class="message-sender">
-  <button mat-icon-button color="primary">
-    <mat-icon>add</mat-icon>
+  <button mat-icon-button>
+    <mat-icon [inline]="true">add</mat-icon>
   </button>
-  <textarea placeholder="Type a message"></textarea>
-  <button mat-icon-button color="primary">
-    <mat-icon>send</mat-icon>
+  <textarea
+    placeholder="Type a message"
+    cdkTextareaAutosize
+    cdkAutosizeMinRows="1"
+    cdkAutosizeMaxRows="5"
+  ></textarea>
+  <button mat-icon-button>
+    <mat-icon [inline]="true">send</mat-icon>
   </button>
 </div>
