@@ -6,8 +6,8 @@
 }
 .example-card {
   padding: 0;
-  width: 800px;
-  height: 750px;
+  min-width: 80%;
+  min-height: 90vh;
 }
 .example-header-image {
   margin-left: 5px;
