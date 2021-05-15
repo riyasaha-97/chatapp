@@ -1,12 +1,20 @@
-.example-card-footer {
+.message-sender {
   position: absolute;
-  bottom: 0;
   width: 100%;
-  margin-left: 5px;
+  bottom: 0px;
   display: flex;
   justify-content: center;
   align-items: baseline;
+  background-color: #ededed;
 }
-.example-card-footer > mat-form-field {
+.message-sender > textarea {
   flex: 1;
+  background-color: inherit;
+  border: none;
+}
+.message-sender > textarea:focus {
+  outline: none;
+}
+mat-icon {
+  color: #455a64;
 }

@@ -9,9 +9,10 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { MessageSenderComponent } from './helper-components/message-sender/message-sender.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { ChatHeadComponent } from './helper-components/chat-head/chat-head.component';
 
 @NgModule({
-  declarations: [AppComponent, MessageSenderComponent],
+  declarations: [AppComponent, MessageSenderComponent, ChatHeadComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
