@@ -1,16 +1,20 @@
-.container
-{
-    display: flex;
-    flex-direction: column;
-    min-height: 97vh;
-    
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 40px;
 }
-.chatDisplay
-{
-    flex: 1;
+.example-card {
+  padding: 0;
+  width: 800px;
+  height: 750px;
 }
-.typeMsg
-{
-    display: flex;
-    flex-direction: row;  
+.example-header-image {
+  margin-left: 5px;
+  margin-top: 3px;
+  background-image: url("https://material.angular.io/assets/img/examples/shiba1.jpg");
+  background-size: cover;
+}
+.example-card-body {
+  overflow-x: hidden;
 }

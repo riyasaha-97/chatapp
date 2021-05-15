@@ -1,0 +1,12 @@
+.example-card-footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  margin-left: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+}
+.example-card-footer > mat-form-field {
+  flex: 1;
+}
