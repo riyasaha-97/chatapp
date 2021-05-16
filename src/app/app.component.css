@@ -1,8 +1,8 @@
 .container {
   flex: 1;
   display: flex;
-  min-height: 90vh;
-  justify-content: center;
+  min-height: 100%;
+  min-width: 100%;
 }
 .chat-list {
   max-width: 20%;
@@ -11,10 +11,13 @@
 }
 .chat-box {
   box-shadow: black 0px 3px 8px;
-  min-width: 50%;
+  flex: 1;
   display: flex;
   flex-direction: column;
 }
 message-container {
   flex: 1;
+  position: relative;
+  overflow-x: hidden;
+  overflow-y: scroll;
 }

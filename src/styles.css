@@ -5,25 +5,11 @@ body {
   height: 100%;
   background-color: #1f292d;
 }
-app-root {
-  padding-top: 1%;
-  display: flex;
-  justify-content: center;
-  min-width: 90%;
-}
 body {
   margin: 0;
   font-family: Roboto, "Helvetica Neue", sans-serif;
 }
 ::-webkit-scrollbar {
-  width: 5px;
-}
-::-webkit-scrollbar-track {
-  background: #87a1ab;
-}
-::-webkit-scrollbar-thumb {
-  background: #2a373c;
-}
-::-webkit-scrollbar-thumb:hover {
-  background: #1f292d;
+  width: 0;
+  background: transparent;
 }
