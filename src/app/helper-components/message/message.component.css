@@ -1,5 +1,5 @@
 .message-container {
-  background-color: #ece5dd;
+  background-color: #1f292d;
   min-height: 100%;
   display: flex;
   flex-direction: column;
@@ -9,6 +9,7 @@
   align-self: flex-start;
   position: relative;
   max-width: 40%;
+  min-width: 5%;
   padding: 1% 4% 2% 1.5%;
   background-color: white;
   text-align: left;
@@ -19,6 +20,7 @@
   align-self: flex-end;
   position: relative;
   max-width: 40%;
+  min-width: 5%;
   padding: 1% 4% 2% 1.5%;
   background-color: #dcf8c6;
   text-align: left;

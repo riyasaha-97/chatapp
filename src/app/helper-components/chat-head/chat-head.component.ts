@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'chat-head',
@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./chat-head.component.css'],
 })
 export class ChatHeadComponent implements OnInit {
+  @Input('isMinified') isMinified: Boolean = false;
   constructor() {}
-
   ngOnInit(): void {}
 }

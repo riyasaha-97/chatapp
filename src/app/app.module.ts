@@ -11,6 +11,7 @@ import { MessageSenderComponent } from './helper-components/message-sender/messa
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ChatHeadComponent } from './helper-components/chat-head/chat-head.component';
 import { MessageComponent } from './helper-components/message/message.component';
+import { ChatListComponent } from './helper-components/chat-list/chat-list.component';
 
 @NgModule({
   declarations: [
@@ -18,6 +19,7 @@ import { MessageComponent } from './helper-components/message/message.component'
     MessageSenderComponent,
     ChatHeadComponent,
     MessageComponent,
+    ChatListComponent,
   ],
   imports: [
     BrowserModule,

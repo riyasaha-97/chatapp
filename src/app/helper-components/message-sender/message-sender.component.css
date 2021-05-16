@@ -3,17 +3,36 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #ededed;
+  background-color: #2a373c;
 }
 .message-sender > textarea {
   flex: 1;
   background-color: inherit;
+  color: #ededed;
   border: none;
+}
+.message-sender > textarea::-webkit-input-placeholder {
+  color: #ededed;
+}
+.message-sender > textarea:-moz-placeholder {
+  /* Firefox 18- */
+  color: #ededed;
+}
+.message-sender > textarea::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #ededed;
+}
+.message-sender > textarea:-ms-input-placeholder {
+  color: #ededed;
+}
+.message-sender > textarea::placeholder {
+  color: #ededed;
 }
 .message-sender > textarea:focus {
   outline: none;
+  color: #ededed;
 }
 .message-sender > button {
   font-size: 20px;
-  color: #075e54;
+  color: #ededed;
 }

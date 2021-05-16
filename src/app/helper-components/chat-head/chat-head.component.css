@@ -2,9 +2,15 @@
   display: flex;
   align-items: center;
   padding: 1%;
-  background-color: #075e54;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  color: white;
+  background-color: #2a373c;
+  color: #e5e5e5;
+}
+.chat-head-minified {
+  display: flex;
+  align-items: center;
+  padding: 1%;
+  background-color: #1f292d;
+  color: #e5e5e5;
 }
 .user-avatar {
   width: 50px;
@@ -22,4 +28,10 @@
 .user-detail > p {
   margin-top: 15px;
   margin-bottom: 1px;
+}
+hr {
+  margin-top: 0;
+  width: 90%;
+  border: 1px solid #151b1e;
+  opacity: 0.5;
 }
